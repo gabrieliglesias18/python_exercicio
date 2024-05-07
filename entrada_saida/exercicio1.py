@@ -1,0 +1,6 @@
+número1 = int(input("Insira o primeiro número inteiro: "))
+número2 = int(input("Insira o segundo número inteiro: "))
+print("Você inseriu os números:",número, "e",número2)
+soma = (número1 + número2)
+produto = (númro1 + número2)
+print(f"A soma dos números: { soma }"f" O produto dos números:{ produto}")             
