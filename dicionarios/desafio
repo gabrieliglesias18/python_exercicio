@@ -1,0 +1,14 @@
+# Inicializamos um dicionário vazio
+dicionário = {}
+
+# Definimos o número de elementos que queremos no dicionário
+num_elementos = int(input("Quantos elementos você deseja adicionar ao dicionário? "))
+
+# Para cada elemento, solicitamos a chave e o valor ao usuário
+for i in range(num_elementos):
+    chave = input(f"Digite a chave do elemento {i + 1}: ")
+    valor = input(f"Digite o valor para a chave '{chave}': ")
+    dicionário[chave] = valor
+
+# Exibimos o dicionário final
+print("Dicionário final:", dicionário)
